@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Music Player</string>
+    <string name="app_name">MusicApp</string>
     <string name="delete">Delete</string>
     <string name="equalizer">Equalizer</string>
     <string name="title_activity_main2">Main2Activity</string>
