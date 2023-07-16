@@ -9,8 +9,6 @@ import android.content.pm.PackageManager
 import android.os.Bundle
 import android.os.Handler
 import android.os.IBinder
-//import android.view.Menu
-import android.view.MenuItem
 import android.view.View
 import android.widget.ImageButton
 import android.widget.SeekBar
@@ -25,7 +23,6 @@ import com.simple.musicapp.playback.MusicService
 import com.simple.musicapp.playback.PlaybackInfoListener
 import com.simple.musicapp.playback.PlayerAdapter
 import com.simple.musicapp.ui.blueprints.MainActivityBluePrint
-//import com.simple.musicapp.utils.EqualizerUtils
 import com.simple.musicapp.utils.RecyclerAdapter
 import com.simple.musicapp.utils.SongProvider
 import com.simple.musicapp.utils.Utils
@@ -104,20 +101,6 @@ class MainActivity : MainActivityBluePrint(), View.OnClickListener, RecyclerAdap
             finish()
         }else getMusic()
     }
-
-//    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-//        menuInflater.inflate(R.menu.main_activity_menu, menu)
-//        return true
-//    }
-
-//    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
-//        when (item?.itemId) {
-//            R.id.action_equalizer -> {
-//                EqualizerUtils.openEqualizer(this, mPlayerAdapter?.getMediaPlayer())
-//            }
-//        }
-//        return super.onOptionsItemSelected(item)
-//    }
 
     private fun setViews() {
         playPause = findViewById(R.id.buttonPlayPause)
